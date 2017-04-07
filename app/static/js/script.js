@@ -74,3 +74,17 @@ var canPlay = function(audio, progressBar, fullWidth, duration, remaining, glyph
         glyphicon.attr('class', 'glyphicon glyphicon-pause');
     }
 };
+
+
+var divs = $('div[id^="question-"]').hide(),
+    i = 0;
+
+(function cycle() {
+
+    divs.eq(i).fadeIn(1400)
+              .delay(1000)
+              .fadeOut(1400, cycle);
+
+    i = ++i % divs.length;
+
+})();
