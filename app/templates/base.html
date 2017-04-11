@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
 
     <title>{% block title %}Vermont Public Radio{% endblock %}</title>
@@ -34,9 +33,9 @@
 <body>
 
 <div id="page_container">
-{% block navbar %}{% include "_navbar.html" %}{% endblock %}
 
 {% block content %}{% endblock %}
+{% block footer %}{% include "_footer.html" %}{% endblock %}
 </div>
 
 {% block scripts %}
