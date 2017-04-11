@@ -340,11 +340,6 @@ th {
     background: #fff !important;
   }
 
-  /* line 240, ../dev/sass/_bootstrap.scss */
-  .navbar {
-    display: none;
-  }
-
   /* line 244, ../dev/sass/_bootstrap.scss */
   .table td,
   .table th {
@@ -3245,15 +3240,7 @@ input[type="button"].btn-block {
 .row:before,
 .row:after,
 .form-horizontal .form-group:before,
-.form-horizontal .form-group:after,
-.nav:before,
-.nav:after,
-.navbar:before,
-.navbar:after,
-.navbar-header:before,
-.navbar-header:after,
-.navbar-collapse:before,
-.navbar-collapse:after {
+.form-horizontal .form-group:after {
   content: " ";
   display: table;
 }
@@ -3264,11 +3251,7 @@ input[type="button"].btn-block {
 .container:after,
 .container-fluid:after,
 .row:after,
-.form-horizontal .form-group:after,
-.nav:after,
-.navbar:after,
-.navbar-header:after,
-.navbar-collapse:after {
+.form-horizontal .form-group:after {
   clear: both;
 }
 
@@ -4480,75 +4463,9 @@ div.audio_player .audio_title {
   left: 20px;
 }
 
-/* line 12, ../dev/sass/style.scss */
-.molat {
-  font-family: Molot;
-  font-size: 48px;
-  line-height: 55px;
-}
-
 /* line 22, ../dev/sass/style.scss */
 h1, h2, h3, h4 {
   font-family: "Exo-Light";
-}
-
-/* line 36, ../dev/sass/style.scss */
-.navbar {
-  min-height: 63px;
-}
-@media (max-width: 500px) {
-  /* line 36, ../dev/sass/style.scss */
-  .navbar {
-    min-height: 45px;
-  }
-}
-@media (max-width: 768px) {
-  /* line 41, ../dev/sass/style.scss */
-  .navbar .navbar-header {
-    padding: 0 1px 0;
-  }
-}
-/* line 45, ../dev/sass/style.scss */
-.navbar .navbar-header #navbar-title {
-  font-size: 36px !important;
-  font-family: Molot;
-}
-/* line 46, ../dev/sass/style.scss */
-.navbar .navbar-header #navbar-title a {
-  /*color: #faf6e8;*/
-}
-/* line 48, ../dev/sass/style.scss */
-.navbar .navbar-header #navbar-title a:hover {
-  color: #E04E39;
-}
-@media (max-width: 500px) {
-  /* line 45, ../dev/sass/style.scss */
-  .navbar .navbar-header #navbar-title {
-    font-size: 22px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  /* line 45, ../dev/sass/style.scss */
-  .navbar .navbar-header #navbar-title {
-    text-align: left !important;
-  }
-}
-/* line 65, ../dev/sass/style.scss */
-.navbar .navbar-header .social_logos {
-  top: 8px !important;
-}
-@media (max-width: 500px) {
-  /* line 65, ../dev/sass/style.scss */
-  .navbar .navbar-header .social_logos {
-    top: -2px !important;
-  }
-}
-@media (max-width: 500px) {
-  /* line 71, ../dev/sass/style.scss */
-  .navbar .navbar-header .social_logos li i.icon {
-    font-size: 20px !important;
-  }
 }
 
 .icon-alone {
