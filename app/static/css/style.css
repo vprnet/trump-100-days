@@ -4495,13 +4495,14 @@ h1, h2, h3, h4 {
   }
   .intro-text h2 {
     font-size: 18px;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    height: 100px;
   }
   .intro-text h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .intro-text h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
