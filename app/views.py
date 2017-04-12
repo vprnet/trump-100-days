@@ -19,7 +19,7 @@ project_social = {
 @app.route("/")
 def index():
     page_url = BASE_URL + request.path
-    page_title = "100 Days"
+    page_title = "Vermont's Response: Trump's First 100 Days"
     landing = True
 
     social = project_social
