@@ -1,6 +1,6 @@
 # Trump's First 100 Days
 
-This is iteration one of a web app for VPR's coverage of Trump's first 100 days in office and its effects here in Vermont.
+This is iteration one of a web app for VPR's coverage of Trump's first 100 days in office and its effects here in Vermont. We're looking to collect voices from all around the region about how people are feeling. More documentation TK as we figure out what kinds of submissions we get & what we, you know, actually want to do with them.
 
 ## Get Involved
 
