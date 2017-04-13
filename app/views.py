@@ -7,10 +7,10 @@ entries = get_entries()
 
 project_social = {
     "url": BASE_URL,
-    "title": "",
+    "title": "Nearly 100 Days Into Trump's Administration...",
     "subtitle": "",
-    "img": "",
-    "description": "",
+    "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-vermont-100-feeling.png",
+    "description": "Add your voice to VPR coverage.",
     "twitter_text": "",
     "twitter_hashtag": ""
 }
