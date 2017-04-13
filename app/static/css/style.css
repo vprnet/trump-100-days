@@ -1105,7 +1105,7 @@ address {
 @media (min-width: 992px) {
   /* line 1344, ../dev/sass/_bootstrap.scss */
   .container {
-    width: 970px;
+    width: 960px;
   }
 }
 @media (min-width: 1200px) {
@@ -3620,7 +3620,7 @@ html, body {
 
 /* line 48, ../dev/sass/_vpr.scss */
 #vpr_logo {
-  padding-top: 10%;
+  padding-top: 9%;
   margin-left: auto;
   margin-right: auto;
   width: 6em
@@ -4489,15 +4489,37 @@ h1, h2, h3, h4 {
   height: 140px;
 }
 
-@media (max-width: 698px) {
+@media (max-width: 920px) {
   .intro-text h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .intro-text h2 {
+    font-size: 17px;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    height: 60px;
+  }
+  .intro-text h3 {
     font-size: 18px;
-    padding-top: 11%;
-    padding-bottom: 11%;
-    height: 85px;
+    text-decoration: underline;
+  }
+  .intro-text h4 {
+    font-size: 16px;
+  }
+  .intro-text h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 698px) {
+  .intro-text h1 {
+    font-size: 17px;
+  }
+  .intro-text h2 {
+    font-size: 16px;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    height: 60px;
   }
   .intro-text h3 {
     font-size: 16px;
