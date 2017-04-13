@@ -4506,4 +4506,7 @@ h1, h2, h3, h4 {
   .intro-text h4 {
     font-size: 14px;
   }
+  .intro-text h5 {
+    font-size: 12px;
+  }
 }
