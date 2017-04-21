@@ -3637,7 +3637,7 @@ footer {
 @media (max-width: 768px) {
   /* line 72, ../dev/sass/_vpr.scss */
   footer {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 }
 /* line 83, ../dev/sass/_vpr.scss */
@@ -4478,7 +4478,7 @@ h1, h2, h3, h4 {
 }
 
 .intro-text {
-  padding: 7% 30px 10px;
+  padding: 6% 30px 10px;
   text-align: center;
   color: white;
 }
@@ -4486,7 +4486,7 @@ h1, h2, h3, h4 {
 .intro-text h2 {
   padding-top: 6%;
   padding-bottom: 6%;
-  height: 140px;
+  height: 120px;
 }
 
 @media (max-width: 920px) {
@@ -4497,7 +4497,7 @@ h1, h2, h3, h4 {
     font-size: 17px;
     padding-top: 9%;
     padding-bottom: 9%;
-    height: 60px;
+    height: 80px;
   }
   .intro-text h3 {
     font-size: 18px;
