@@ -26,27 +26,38 @@
         <br>
         <h1>Here's some of what we've heard so far.</h1>
         <h1><span class="soundcite" data-url="http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-days-of-trump-teaser.mp3" data-start="0" data-end="31000" data-plays="1">Listen to the teaser.</span></h1>
-        {% include "_profiles.html" %}
+        <ul class="flex-container">
+          {% for entry in entries %}
+            {% if landing %}
+              {% include "_profiles.html" %}
+            {% else %}
+              {% if loop.first %}
+                {% include "_profile_view.html" %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
 
-      <div class="col-md-6">
-        <div class="submit-text">
-          <h3>Record your thoughts:</h3>
-          <h4>Use the built-in Voice Memo feature on a smartphone to record.</h4>
-          <h5>Send your file to share@vpr.net</h5>
-          <h5>Let us know how you'd like to be attributed.</h5>
+      {% if landing %}
+        <div class="col-md-6">
+          <div class="submit-text">
+            <h3>Record your thoughts:</h3>
+            <h4>Use the built-in Voice Memo feature on a smartphone to record.</h4>
+            <h5>Send your file to share@vpr.net</h5>
+            <h5>Let us know how you'd like to be attributed.</h5>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-6">
-        <div class="submit-text">
-          <h3>Share a note:</h3>
-          <h4>Too much work to record yourself? No sweat.</h4>
-          <h5>Send your thoughts to share@vpr.net</h5>
-          <h5>Let us know how you'd like to be attributed.</h5>
+        <div class="col-md-6">
+          <div class="submit-text">
+            <h3>Share a note:</h3>
+            <h4>Too much work to record yourself? No sweat.</h4>
+            <h5>Send your thoughts to share@vpr.net</h5>
+            <h5>Let us know how you'd like to be attributed.</h5>
+          </div>
         </div>
-      </div>
-
+      {% endif %}
 
     </div>
   </div>

@@ -1,9 +1,4 @@
-<ul class="flex-container">
-  {% for entry in entries %}
-    <li class="flex-item">
-      <h5> "this is my highlighted text. these are my thoughts. this is what i'm thinking."</h5>
-      <h5><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">{{ entry.Name }}</span></h5>
-      <h5>{{ entry.Town }}</h5>
-    </li>
-  {% endfor %}
-</ul>
+<li class="flex-item">
+  <a class="name" href="{{url_for('entry_page', Name=entry.slug)}}" alt="{{ entry.Name }}">
+  <h5> "this is my highlighted text. these are my thoughts. this is what i'm thinking."</h5></a>
+</li>
