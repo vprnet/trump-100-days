@@ -4484,30 +4484,29 @@ h1, h2, h3, h4 {
 }
 
 .intro-text h2 {
-  padding-top: 6%;
-  padding-bottom: 6%;
-  height: 120px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  height: 100px;
 }
 
 @media (max-width: 920px) {
   .intro-text h1 {
     font-size: 18px;
   }
-  .intro-text h2 {
+  .intro-text h3 {
     font-size: 17px;
     padding-top: 9%;
     padding-bottom: 9%;
     height: 80px;
-  }
-  .intro-text h3 {
-    font-size: 18px;
-    text-decoration: underline;
   }
   .intro-text h4 {
     font-size: 16px;
   }
   .intro-text h5 {
     font-size: 14px;
+  }
+  .submit-text h3 {
+    text-decoration: underline;
   }
 }
 
@@ -4515,15 +4514,11 @@ h1, h2, h3, h4 {
   .intro-text h1 {
     font-size: 17px;
   }
-  .intro-text h2 {
+  .intro-text h3 {
     font-size: 16px;
     padding-top: 9%;
     padding-bottom: 9%;
     height: 60px;
-  }
-  .intro-text h3 {
-    font-size: 16px;
-    text-decoration: underline;
   }
   .intro-text h4 {
     font-size: 14px;
@@ -4531,4 +4526,34 @@ h1, h2, h3, h4 {
   .intro-text h5 {
     font-size: 12px;
   }
+}
+
+
+.flex-container {
+  padding-top: 40px;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #7e8c9b;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
 }
