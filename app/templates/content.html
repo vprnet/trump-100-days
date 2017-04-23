@@ -7,25 +7,18 @@
 <div class="container">
   <div class="row">
     <div class="intro-text">
-      <div class="col-md-12">
-        <h1>We're nearly 100 days into the Trump administration.</h1>
-        <h1>We want to hear from you.</h1>
-        <h3>
-          <div id="question-1">Here's what we're wondering...</div>
-          <div id="question-2">How are you feeling?</div>
-          <div id="question-3">Has anything about President Trump surprised you?</div>
-          <div id="question-4">Are you relieved?</div>
-          <div id="question-5">Are you concerned?</div>
-          <div id="question-6">Are you optimistic?</div>
-          <div id="question-7">Has anything changed for you and your community?</div>
-        </h3>
-        <br>
-      </div>
+
+      {% if landing %}
+
+        <div class="col-md-12">
+          <h1>Nearly 100 days into the Trump administration, we asked how you're feeling.</h1>
+          <br>
+          <h4>Here's some of what we've heard so far.</h4>
+        </div>
+
+      {% endif %}
 
       <div class="col-md-12">
-        <br>
-        <h1>Here's some of what we've heard so far.</h1>
-        <h1><span class="soundcite" data-url="http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-days-of-trump-teaser.mp3" data-start="0" data-end="31000" data-plays="1">Listen to the teaser.</span></h1>
         <ul class="flex-container">
           {% for entry in entries %}
             {% if landing %}
@@ -38,27 +31,7 @@
           {% endfor %}
         </ul>
       </div>
-
-      {% if landing %}
-        <div class="col-md-6">
-          <div class="submit-text">
-            <h3>Record your thoughts:</h3>
-            <h4>Use the built-in Voice Memo feature on a smartphone to record.</h4>
-            <h5>Send your file to share@vpr.net</h5>
-            <h5>Let us know how you'd like to be attributed.</h5>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="submit-text">
-            <h3>Share a note:</h3>
-            <h4>Too much work to record yourself? No sweat.</h4>
-            <h5>Send your thoughts to share@vpr.net</h5>
-            <h5>Let us know how you'd like to be attributed.</h5>
-          </div>
-        </div>
-      {% endif %}
-
+      
     </div>
   </div>
 </div>

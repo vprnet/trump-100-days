@@ -492,8 +492,6 @@ a {
 /* line 913, ../dev/sass/_bootstrap.scss */
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
 }
 
 /* line 917, ../dev/sass/_bootstrap.scss */
@@ -4545,15 +4543,29 @@ h1, h2, h3, h4 {
 }
 
 .flex-item {
-  background: #7e8c9b;
+  border: 2px solid #343434;
   padding: 5px;
   width: 200px;
-  height: 150px;
+  height: 200px;
   margin-top: 10px;
 
-  line-height: 150px;
-  color: white;
+  line-height: 200px;
   font-weight: bold;
   font-size: 1em;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.flex-item h5 {
+  color: white;
+}
+
+.flex-item:hover {
+  background: #494949;
+  border: 2px solid #343434;
+  color: black;
+}
+
+.profile-view {
   text-align: center;
 }
