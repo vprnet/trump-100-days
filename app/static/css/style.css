@@ -4551,6 +4551,7 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
+
 .profile-view {
   text-align: left;
   color: white;
@@ -4558,6 +4559,10 @@ h1, h2, h3, h4, h5 {
   padding-top: 20px;
   padding-right: 60px;
   padding-left: 60px;
+}
+
+.profile-view h4 {
+  padding-bottom: 30px;
 }
 
 @media (max-width: 920px) {

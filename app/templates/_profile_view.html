@@ -1,14 +1,13 @@
 <div class="profile-view">
 
   {% if entry.Audio == "none" %}
-    <h5>{{ entry.Copy1 }}</h5>
-    <h5>{{ entry.Copy2 }}</h5>
-    <h5>{{ entry.Copy3 }}</h5>
-    <br>
+    <h4>{{ entry.Copy1 }}</h4>
+    <h4>{{ entry.Copy2 }}</h4>
+    <h4>{{ entry.Copy3 }}</h4>
     <h5>{{ entry.Name }}</h5>
     <h5>{{ entry.Town }}</h5>
   {% else %}
-    <h5><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">"{{ entry.Quote }}"</span></h5>
+    <h3><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">"{{ entry.Quote }}"</span></h3>
     <br>
     <h5>{{ entry.Name }}</h5>
     <h5>{{ entry.Town }}</h5>
