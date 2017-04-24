@@ -4552,7 +4552,7 @@ h1, h2, h3, h4 {
 }
 
 .profile-view {
-  text-align: center;
+  text-align: left;
   color: white;
   margin: 30px;
   padding-top: 20px;
@@ -4576,6 +4576,6 @@ h1, h2, h3, h4 {
   }
 }
 
-#back-button {
-  padding-top: 30px;
+#navigation-text {
+  margin-top: 30px;
 }

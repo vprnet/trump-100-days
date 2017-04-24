@@ -42,22 +42,14 @@
     {% if landing %}
 
     <div class="intro-text">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <br>
-        <h1>Record your thoughts:</h1>
-        <h4>Use the built-in Voice Memo feature on a smartphone to record.</h4>
-        <h5>Send your file to share@vpr.net</h5>
-        <h5>Let us know how you'd like to be attributed.</h5>
-       </div>
+        <h1><a class="name" href="{{url_for('share_page')}}" alt="{{ Share }}"> > Share your own thoughts.</a></h1>
+        <h5><a class="name" href="{{url_for('share_page')}}" alt="{{ Share }}">Follow the instructions here.</a></h5>
+      </div>
+    </div>
 
-       <div class="col-md-6">
-        <br>
-        <h1>Share a note:</h1>
-        <h4>Too much work to record yourself? No sweat.</h4>
-        <h5>Send your thoughts to share@vpr.net</h5>
-        <h5>Let us know how you'd like to be attributed.</h5>
-       </div>
-
+      <div class="intro-text">
         <div class="col-md-12">
           <br>
           <h1>Credits</h1>

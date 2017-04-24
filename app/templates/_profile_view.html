@@ -1,19 +1,30 @@
 <div class="profile-view">
 
   {% if entry.Audio == "none" %}
-    <h5>"{{ entry.Copy }}"</h5>
+    <h5>{{ entry.Copy1 }}</h5>
+    <h5>{{ entry.Copy2 }}</h5>
+    <h5>{{ entry.Copy3 }}</h5>
     <br>
     <h5>{{ entry.Name }}</h5>
     <h5>{{ entry.Town }}</h5>
   {% else %}
-    <h5>"{{ entry.Quote }}"</h5>
+    <h5>{{ entry.Quote }}</h5>
     <br>
     <h5><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">{{ entry.Name }}</span></h5>
     <h5>{{ entry.Town }}</h5>
   {% endif %}
 
-  <div id="back-button">
-    <a class="name" href="{{url_for('index')}}" alt="{{ Home }}">Explore the whole project.</a>
+  <div class="intro-text">
+    <div class="col-md-6">
+      <h3><a class="name" href="{{url_for('index')}}" alt="{{ Home }}"> > Explore the whole project.</a></h3>
+    </div>
   </div>
+
+  <div class="intro-text">
+    <div class="col-md-6">
+      <h3><a class="name" href="{{url_for('share_page')}}" alt="{{ Share }}"> > Share your own thoughts.</a></h3>
+    </div>
+  </div>
+
 
 </div>
