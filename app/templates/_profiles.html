@@ -1,9 +1,11 @@
 <a class="name" href="{{url_for('entry_page', Slug=entry.slug)}}" alt="{{ entry.Slug }}">
   <li class="flex-item">
     <div id="quote-height">
-      <h4><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">"{{ entry.Quote }}"</span></h4>
       {% if entry.Audio == "none" %}
+        <h4>{{ entry.Quote }}</h4>
         <h6><i>Click to read more.</i></h6>
+      {% else %}
+        <h4><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1">"{{ entry.Quote }}"</span></h4>
       {% endif %}
     </div>
     <div id="town-height">
