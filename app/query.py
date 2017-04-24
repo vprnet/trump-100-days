@@ -7,5 +7,4 @@ def get_entries():
 
     for i, entry in enumerate(full_list):
         entry['slug'] = slugify(entry['Name'])
-
     return full_list
