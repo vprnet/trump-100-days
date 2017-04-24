@@ -4464,7 +4464,7 @@ div.audio_player .audio_title {
 }
 
 /* line 22, ../dev/sass/style.scss */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: "Exo-Light";
 }
 
@@ -4528,17 +4528,17 @@ h1, h2, h3, h4 {
 }
 
 .flex-item {
-  border: 2px solid #343434;
-  padding: 5px;
-  width: 200px;
-  height: 230px;
+  border: 2px solid #3c454e;
+  padding: 25px;
+  width: 350px;
+  height: 250px;
   margin-top: 10px;
 
-  line-height: 230px;
+  line-height: 250px;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 6%;
 }
 
 .flex-item h5 {
@@ -4547,7 +4547,7 @@ h1, h2, h3, h4 {
 
 .flex-item:hover {
   background: #494949;
-  border: 2px solid #343434;
+  border: 2px solid #3c454e;
   color: white;
 }
 
@@ -4601,10 +4601,10 @@ h1, h2, h3, h4 {
   }
 }
 
-#name-height {
-  height: 40px;
+#quote-height {
+  height: 150px;
 }
 
 #town-height {
-  height: 40px;
+  height: 15px;
 }
