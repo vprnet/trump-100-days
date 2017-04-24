@@ -4531,10 +4531,10 @@ h1, h2, h3, h4 {
   border: 2px solid #343434;
   padding: 5px;
   width: 200px;
-  height: 200px;
+  height: 230px;
   margin-top: 10px;
 
-  line-height: 200px;
+  line-height: 230px;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
@@ -4599,4 +4599,12 @@ h1, h2, h3, h4 {
     padding-right: 10px;
     padding-left: 10px;
   }
+}
+
+#name-height {
+  height: 40px;
+}
+
+#town-height {
+  height: 40px;
 }
