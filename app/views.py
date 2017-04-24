@@ -33,15 +33,15 @@ def index():
         page_url=page_url)
 
 
-@app.route("/<Name>")
-def entry_page(Name):
+@app.route("/<Slug>")
+def entry_page(Slug):
     for entry in entries:
-        if "slug" in entry and Name == entry["slug"]:
+        if "slug" in entry and Slug == entry["slug"]:
             entries.remove(entry)
             entries.insert(0, entry)
 
     page_url = BASE_URL + request.path
-    page_title = entries[0]["Name"]
+    page_title = "Vermont's Response: Trump's First 100 Days"
 
     social = {
         "title": page_title,

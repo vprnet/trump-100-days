@@ -6,5 +6,5 @@ def get_entries():
     full_list = get_google_sheet()
 
     for i, entry in enumerate(full_list):
-        entry['slug'] = slugify(entry['Name'])
+        entry['slug'] = slugify(entry['Slug'])
     return full_list
