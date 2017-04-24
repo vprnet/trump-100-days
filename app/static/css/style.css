@@ -4462,7 +4462,7 @@ div.audio_player .audio_title {
 
 /* line 22, ../dev/sass/style.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Exo-Light";
+  font-family: 'Lato', sans-serif;
 }
 
 .icon-alone {
@@ -4484,24 +4484,35 @@ h1, h2, h3, h4, h5 {
   padding-top: 10px;
 }
 
+.intro-text h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 54px;
+}
+
+.intro-text h5 {
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+}
+
 @media (max-width: 920px) {
   .intro-text {
     margin: 20px;
   }
   .intro-text h1 {
-    font-size: 18px;
+    font-size: 40px;
   }
   .intro-text h4 {
     font-size: 16px;
+
   }
 }
 
 @media (max-width: 698px) {
   .intro-text {
-    margin: 20px;
+    margin: 10px;
   }
   .intro-text h1 {
-    font-size: 17px;
+    font-size: 34px;
   }
   .intro-text h4 {
     font-size: 14px;
@@ -4525,11 +4536,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .flex-item {
-  border: 2px solid #3E4865;
+  border: 3px solid #3E4865;
   padding: 25px;
   width: 350px;
   height: 250px;
-  margin-top: 10px;
+  margin-top: 90px;
+  border-radius: 5px;
 
   line-height: 250px;
   font-weight: bold;
@@ -4539,12 +4551,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .flex-item h5 {
+  font-size: 14px;
+  font-style: italic;
+  color: white;
+}
+
+.flex-item h4 {
   color: white;
 }
 
 .flex-item:hover {
   background: #3E4865;
-  border: 2px solid #3E4865;
+  border: 3px solid #3E4865;
   color: white;
 }
 
@@ -4559,7 +4577,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .profile-view h4 {
+  line-height: 1.5;
   padding-bottom: 30px;
+}
+
+.profile-view h5 {
+  text-align: right;
 }
 
 @media (max-width: 920px) {
@@ -4587,6 +4610,11 @@ h1, h2, h3, h4, h5 {
   padding-left: 60px;
 }
 
+.navigation-text h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+}
+
 @media (max-width: 920px) {
   .navigation-text {
     margin: 30px;
@@ -4608,5 +4636,6 @@ h1, h2, h3, h4, h5 {
 }
 
 #town-height {
+  text-align: right;
   height: 15px;
 }
