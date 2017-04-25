@@ -4556,6 +4556,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 720px) {
+  .flex-item {
+    width: 310px;
+  }
+}
+
 .flex-item h5 {
   font-size: 14px;
   font-style: italic;
