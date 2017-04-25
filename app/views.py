@@ -33,14 +33,14 @@ def index():
         page_url=page_url)
 
 
-@app.route("/share")
-def share_page():
+@app.route("/contribute")
+def contribute_page():
     page_url = BASE_URL + request.path
     page_title = "Vermont's Response: Share Your Thoughts"
 
     social = project_social
 
-    return render_template("share.html",
+    return render_template("contribute.html",
         page_title=page_title,
         social=social,
         entries=entries,

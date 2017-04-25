@@ -4461,7 +4461,7 @@ div.audio_player .audio_title {
 }
 
 /* line 22, ../dev/sass/style.scss */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -4540,7 +4540,7 @@ h1, h2, h3, h4, h5 {
   padding: 25px;
   width: 350px;
   height: 250px;
-  margin-top: 90px;
+  margin-top: 60px;
   border-radius: 5px;
 
   line-height: 250px;
@@ -4548,6 +4548,12 @@ h1, h2, h3, h4, h5 {
   font-size: 1em;
   text-align: center;
   padding-top: 6%;
+}
+
+@media (max-width: 920px) {
+  .flex-item {
+    margin-top: 30px;
+  }
 }
 
 .flex-item h5 {
