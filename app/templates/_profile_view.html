@@ -11,6 +11,9 @@
     <br>
     <h5><i>{{ entry.Name }}</i></h5>
     <h5><i>{{ entry.Town }}</i></h5>
+    {% if entry.Disclosure %}
+      <h5><i>(Disclosure: {{ entry.Disclosure }})</i></h5>
+    {% endif %}
   {% endif %}
 
 </div>
