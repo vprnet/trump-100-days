@@ -4599,17 +4599,17 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 920px) {
   .profile-view {
-    margin: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
 @media (max-width: 698px) {
   .profile-view {
-    margin: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 
@@ -4630,6 +4630,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 920px) {
   .navigation-text {
     margin: 30px;
+    padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -4637,9 +4638,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 698px) {
   .navigation-text {
-    margin: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
   }
 }
 
