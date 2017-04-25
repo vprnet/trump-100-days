@@ -518,6 +518,7 @@ img {
   width: 100% \9;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 /* line 934, ../dev/sass/_bootstrap.scss */
