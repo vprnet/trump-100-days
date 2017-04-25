@@ -7,7 +7,7 @@ entries = get_entries()
 
 project_social = {
     "url": BASE_URL,
-    "title": "Nearly 100 Days Into Trump's Administration...",
+    "title": "Vermont's Response: Trump's First 100 Days",
     "subtitle": "",
     "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-twitter.jpg",
     "description": "Add your voice to VPR coverage.",
@@ -61,7 +61,7 @@ def entry_page(Slug):
     social = {
         "title": page_title,
         "subtitle": "Nearly 100 Days Into the Trump Administration",
-        "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-vermont-100-feeling.png",
+        "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-twitter.jpg",
         "description": "From Vermont Public Radio",
         "twitter_text": entries[0]["Name"],
         "twitter_hashtag": ""
