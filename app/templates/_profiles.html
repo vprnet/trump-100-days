@@ -3,10 +3,10 @@
     <div id="quote-height">
       {% if entry.Audio == "none" %}
         <h4>"{{ entry.Quote }}"</h4>
-        <h6><i>Click to read more.</i></h6>
+        <h6><i>Read more.</i></h6>
       {% else %}
         <h4>"{{ entry.Quote }}"</h4>
-        <h6><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1"><i>Click to listen.</i></span></h6>
+        <h6><span class="soundcite" data-url="{{ entry.Audio }}" data-start="0" data-end="{{ entry.AudioEnd }}" data-plays="1"><i>Listen.</i></span></h6>
       {% endif %}
     </div>
     <div id="town-height">
