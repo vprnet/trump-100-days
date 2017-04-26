@@ -9,7 +9,7 @@
 
     <!-- Styles -->
 {% block style %}
-    <link href="{{ url_for('static', filename='css/style.css') }}?ver=0.1" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}?ver=0.1" rel="stylesheet" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Lato:300" rel="stylesheet">
     <link href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'><script type='text/javascript' src='https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
 {% endblock %}
@@ -25,7 +25,6 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='ico/favicon.ico') }}">
 
 {% include "_social.html" %}
-{% include "_underwriter_script.html" %}
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <!-- Jquery used by below anayltics code -->
 {% include "_analytics.html" %}
