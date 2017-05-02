@@ -10,7 +10,7 @@ project_social = {
     "title": "Vermont's Response: Trump's First 100 Days",
     "subtitle": "",
     "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-twitter.jpg",
-    "description": "Add your voice to VPR coverage.",
+    "description": "Reactions to President Trump's first 100 days in office.",
     "twitter_text": "",
     "twitter_hashtag": ""
 }
@@ -36,7 +36,7 @@ def index():
 @app.route("/contribute")
 def contribute_page():
     page_url = BASE_URL + request.path
-    page_title = "Vermont's Response: Share Your Thoughts"
+    page_title = "Vermont's Response: Trump's First 100 Days"
 
     social = project_social
 
@@ -60,7 +60,7 @@ def entry_page(Slug):
 
     social = {
         "title": page_title,
-        "subtitle": "Nearly 100 Days Into the Trump Administration",
+        "subtitle": "Reactions to President Trump's first 100 days in office.",
         "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-100-twitter.jpg",
         "description": "From Vermont Public Radio",
         "twitter_text": entries[0]["Name"],
